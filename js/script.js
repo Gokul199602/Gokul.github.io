@@ -13,7 +13,7 @@ $(document).ready(function(){
 		pagination: false
 	});
 	var typed = new Typed(".typed",{
-	strings:['Software Engineer.','Web Developer.','Student.'],
+	strings:['Software Engineer.','Game Developer','Web Developer.','Student.'],
 	typeSpeed:70,
 	loop: true,
 	startDelay:1000,
