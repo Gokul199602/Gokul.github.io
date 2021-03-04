@@ -13,7 +13,7 @@ $(document).ready(function(){
 		pagination: false
 	});
 	var typed = new Typed(".typed",{
-	strings:['Software Engineer.','Game Developer','Web Developer.','Student.'],
+	strings:['Full Stack Developer','Web Developer','UI Develeper','Front End Developer'],
 	typeSpeed:70,
 	loop: true,
 	startDelay:1000,
@@ -143,6 +143,6 @@ $('.owl-carousel').owlCarousel({
          body.removeClass("fixedNav");
        }
      }
-
+     $($("#filters li a")[0]).click();
    });
 
