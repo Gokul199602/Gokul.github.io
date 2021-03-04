@@ -3,6 +3,7 @@ $(window).on("load",function(){
   $(".loader .inner").fadeOut(500,function(){
       $(".loader").fadeOut(750);
   });
+  $($("#filters li a")[0]).click();
 });
 
 
@@ -144,5 +145,8 @@ $('.owl-carousel').owlCarousel({
        }
      }
      $($("#filters li a")[0]).click();
+     setTimeout(()=>{
+      $($("#filters li a")[0]).click();
+     },1000)
    });
 
